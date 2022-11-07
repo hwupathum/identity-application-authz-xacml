@@ -27,7 +27,7 @@
     <groupId>org.wso2.carbon.identity.application.authz.xacml</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-application-authz-xacml</artifactId>
-    <version>2.3.1</version>
+    <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - XACML Application authorization handler</name>
     <description>
@@ -40,7 +40,7 @@
         <developerConnection>scm:git:https://github.com/wso2-extensions/identity-application-authz-xacml.git
         </developerConnection>
         <connection>scm:git:https://github.com/wso2-extensions/identity-application-authz-xacml.git</connection>
-        <tag>v2.3.1</tag>
+        <tag>v3.0.0-SNAPSHOT</tag>
     </scm>
 
 
@@ -187,8 +187,8 @@
 
     <properties>
         <!--Carbon framework version-->
-        <carbon.identity.framework.import.version.range>[5.14.67, 6.0.0)</carbon.identity.framework.import.version.range>
-        <carbon.identity.framework.version>5.14.67</carbon.identity.framework.version>
+        <carbon.identity.framework.import.version.range>[6.0.0, 7.0.0)</carbon.identity.framework.import.version.range>
+        <carbon.identity.framework.version>6.0.0-SNAPSHOT</carbon.identity.framework.version>
         <balana.version>1.2.4</balana.version>
 
         <identity.app.authz.xacml.pkg.exp.version>${project.version}</identity.app.authz.xacml.pkg.exp.version>
